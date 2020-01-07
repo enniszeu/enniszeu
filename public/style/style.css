@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada&display=swap');
+
+
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+
+}
+.container-fluid{
+	padding: 0px !important;
+}
+.display-4{
+	font-size: 2.5rem !important;
+}
+.baner{
+	background-image: url("../image/enniszeu1.jpg");
+	background-size: cover;
+	height: 100vh;
+	
+}
+#baner{
+	opacity: 0;
+	transition: 1s;
+}
+.meau-nav{
+	
+	height: 60px;
+}
+.meau-nav ul{
+	
+}
+.meau-nav ul li{
+	list-style: none;
+	float: right;
+	padding: 16px;
+	margin: 20px;
+}
+.meau-nav ul li a{
+	color: #fff;
+}
+.title-nav{
+	position: absolute;
+	padding: 12px;
+	color: #B40431;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	margin-left: 75px;
+	margin-top: 15px;
+}
+.font-1{
+	font-style: 37px;
+}
+.nav-mobie i{
+	font-size: 40px;
+    position: absolute;
+    color: #fff;
+    margin-left: 84%;
+    padding: 31px;
+    
+}
+.nav-mobie{
+	display: none;
+}
+.baner-title{
+	color: #fff;
+	float: right;
+	
+}
+
+
+@media (max-width: 992px) {	
+	.meau-nav ul{
+		display: none;
+	}
+	.nav-mobie{
+		display: block;	
+	}
+}
+@media (max-width: 768px) { 
+	
+}
+@media (max-width: 576px) { 
+	.nav-mobie i{
+		margin-left: 70%;
+	}
+}
